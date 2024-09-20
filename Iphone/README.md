@@ -43,5 +43,5 @@ Este projeto emula algumas funcionalidades básicas de um iPhone utilizando Java
 
 ## Execução
 
-Para executar o projeto, basta compilar e rodar a classe `Main.java` em seu ambiente de desenvolvimento Java favorito. A interação com o sistema é realizada via linha de comando, onde o usuário pode escolher qual componente utilizar e qual funcionalidade executar.
+Para executar o projeto, basta compilar e rodar a classe `Home.java` em seu ambiente de desenvolvimento Java favorito. A interação com o sistema é realizada via linha de comando, onde o usuário pode escolher qual componente utilizar e qual funcionalidade executar.
 
