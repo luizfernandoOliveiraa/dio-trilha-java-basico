@@ -31,7 +31,7 @@ Este projeto emula algumas funcionalidades básicas de um iPhone utilizando Java
 - `Phone.java`: Implementa as funcionalidades do telefone.
 - `Safari.java`: Implementa as funcionalidades do navegador de internet.
 -  `Iphone.java`: Interface para vincular todos as funcionalidades em um só lugar.
-- `Home.java`: Classe principal que inicializa o sistema e permite a interação com os componentes.
+- `Iphone7.java`: Classe principal que inicializa o sistema e permite a interação com os componentes.
 - `UML Iphone.png`: Diagrama da estrutura do projeto, destacando as interfaces e seus métodos, e o programa principal.
 ---
 
