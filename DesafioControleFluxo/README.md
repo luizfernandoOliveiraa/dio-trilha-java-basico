@@ -1,5 +1,62 @@
-# Projeto de Contador 
+# ✒️ Projeto Contador ✒️
 
-## Projeto consiste em solicitar 2 números para o usuário via terminal, fazer uma verificação para conferir se o segundo número é maior que o primeiro, e caso o primeiro for maior, gerar um tratamento de exceção customizada. 
+## Descrição
 
-## Aplicação visando pôr em prática conceitos e teoria aprendida durante as aulas de estruturas condicionas, estruturas de repetição e fluxos de exceções.
+Este projeto solicita dois números ao usuário via terminal e realiza uma verificação condicional entre eles. O sistema verifica se o segundo número é maior que o primeiro. Caso contrário, é gerada uma exceção customizada. O objetivo é praticar conceitos de **estruturas condicionais**, **estruturas de repetição** e **tratamento de exceções** em Java.
+
+---
+
+## 📝 Funcionalidades
+
+- **Entrada de dados**: O usuário insere dois números inteiros pelo terminal.
+- **Verificação de números**: O sistema verifica se o segundo número é maior que o primeiro.
+- **Exceção customizada**: Se o primeiro número for maior que o segundo, o programa lança uma exceção customizada com uma mensagem de erro específica.
+- **Contagem**: Caso a verificação seja bem-sucedida, o sistema conta do primeiro número até o segundo, exibindo cada número no terminal.
+
+---
+
+## Estrutura de Arquivos
+
+- `Contador.java`: Classe principal que contém a lógica do programa e o método `main`.
+
+---
+
+## Requisitos
+
+- **Java**: Versão 11 ou superior.
+
+---
+
+## 📝 Como Executar
+
+1. Compile o projeto utilizando o seguinte comando:
+
+    ```bash
+    javac Contador.java
+    ```
+
+2. Execute a aplicação:
+
+    ```bash
+    java Contador
+    ```
+
+3. Insira dois números quando solicitado.
+
+    - Se o segundo número for maior que o primeiro, o programa exibirá a contagem de forma sequencial.
+    - Se o segundo número for menor ou igual ao primeiro, uma exceção customizada será lançada, informando o erro ao usuário.
+
+---
+
+## Exemplo de Execução
+
+```bash
+Digite o primeiro número: 3
+Digite o segundo número: 8
+Contagem:
+3
+4
+5
+6
+7
+8
